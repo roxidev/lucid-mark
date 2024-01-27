@@ -16,12 +16,18 @@ const Environment = () => {
       <div className="w-full p-5 bg-default_soft_pro ">
         <div className="flex flex-col gap-2 lg:flex-row  lg:justify-between mt-2">
           <p className="text-xs text-black font-medium">Environment</p>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center justify-between gap-2">
             <button className=" w-32 h-7 text-xs text-white px-3 bg-secondary rounded-full">
               + New Evironment
             </button>
-            <IoSettingsOutline className="w-8 h-8 p-2 text-secondary rounded-full bg-default_soft_pro" />
-            <IoNotificationsOutline className="w-8 h-8 p-2 text-secondary rounded-full bg-default_soft_pro" />
+            <div>
+              <button className="w-8 h-8 p-2 text-secondary rounded-full bg-default_soft_pro">
+                <IoSettingsOutline />
+              </button>
+              <button className="w-8 h-8 p-2 text-secondary rounded-full bg-default_soft_pro">
+                <IoNotificationsOutline />
+              </button>
+            </div>
           </div>
         </div>
         {/* Metanote */}
@@ -38,8 +44,10 @@ const Environment = () => {
               Export all
             </button>
             <div className="flex items-center gap-2">
-              <CgMenu className="hover:text-secondary " />
               <NavLink to="/">
+                <CgMenu className="hover:text-secondary " />
+              </NavLink>
+              <NavLink to="environment">
                 <GrGrid className="hover:text-secondary " />
               </NavLink>
             </div>
@@ -69,8 +77,12 @@ const Environment = () => {
             <div className="text-sm">Contact form</div>
             <div className="text-sm">Contact form</div>
             <div className="flex gap-4">
-              <LuCamera className="text-secondary " />
-              <PiVideoCamera />
+              <button>
+                <LuCamera className="text-secondary " />
+              </button>
+              <button>
+                <PiVideoCamera />
+              </button>
             </div>
             <div className="w-16 text-center text-warning text-xs pb-1 pt-0.5 rounded-full bg-warning_soft">
               Review
@@ -89,8 +101,12 @@ const Environment = () => {
             <div className="text-sm">Contact form</div>
             <div className="text-sm">Contact form</div>
             <div className="flex gap-4">
-              <LuCamera className="text-secondary " />
-              <PiVideoCamera />
+              <button>
+                <LuCamera className="text-secondary " />
+              </button>
+              <button>
+                <PiVideoCamera />
+              </button>
             </div>
             <div className="w-16 text-center text-warning text-xs pb-1 pt-0.5 rounded-full bg-warning_soft">
               Review
@@ -109,8 +125,12 @@ const Environment = () => {
             <div className="text-sm">Contact form</div>
             <div className="text-sm">Contact form</div>
             <div className="flex gap-4">
-              <LuCamera className="text-secondary " />
-              <PiVideoCamera />
+              <button>
+                <LuCamera className="text-secondary " />
+              </button>
+              <button>
+                <PiVideoCamera />
+              </button>
             </div>
             <div className="w-16 text-center text-warning text-xs pb-1 pt-0.5 rounded-full bg-warning_soft">
               Review
@@ -129,8 +149,12 @@ const Environment = () => {
             <div className="text-sm">Contact form</div>
             <div className="text-sm">Contact form</div>
             <div className="flex gap-4">
-              <LuCamera className="text-secondary " />
-              <PiVideoCamera />
+              <button>
+                <LuCamera className="text-secondary " />
+              </button>
+              <button>
+                <PiVideoCamera />
+              </button>
             </div>
             <div className="w-16 text-center text-warning text-xs pb-1 pt-0.5 rounded-full bg-warning_soft">
               Review
@@ -149,8 +173,12 @@ const Environment = () => {
             <div className="text-sm">Contact form</div>
             <div className="text-sm">Contact form</div>
             <div className="flex gap-4">
-              <LuCamera className="text-secondary " />
-              <PiVideoCamera />
+              <button>
+                <LuCamera className="text-secondary " />
+              </button>
+              <button>
+                <PiVideoCamera />
+              </button>
             </div>
             <div className="w-16 text-center text-warning text-xs pb-1 pt-0.5 rounded-full bg-warning_soft">
               Review
@@ -169,8 +197,12 @@ const Environment = () => {
             <div className="text-sm">Contact form</div>
             <div className="text-sm">Contact form</div>
             <div className="flex gap-4">
-              <LuCamera className="text-secondary " />
-              <PiVideoCamera />
+              <button>
+                <LuCamera className="text-secondary " />
+              </button>
+              <button>
+                <PiVideoCamera />
+              </button>
             </div>
             <div className="w-16 text-center text-warning text-xs pb-1 pt-0.5 rounded-full bg-warning_soft">
               Review
@@ -189,8 +221,12 @@ const Environment = () => {
             <div className="text-sm">Contact form</div>
             <div className="text-sm">Contact form</div>
             <div className="flex gap-4">
-              <LuCamera className="text-secondary " />
-              <PiVideoCamera />
+              <button>
+                <LuCamera className="text-secondary " />
+              </button>
+              <button>
+                <PiVideoCamera />
+              </button>
             </div>
             <div className="w-16 text-center text-warning text-xs pb-1 pt-0.5 rounded-full bg-warning_soft">
               Review

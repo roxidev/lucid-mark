@@ -22,6 +22,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="tasks" element={<Tasks />} />
         <Route path="teams" element={<Teams />} />
         <Route path="login" element={<Login />} />
+        
         <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>
