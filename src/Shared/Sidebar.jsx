@@ -11,6 +11,7 @@ import { NavLink } from "react-router-dom";
 import { FaRegClipboard } from "react-icons/fa";
 // import ToggleBtn from "../Component/ToggleBtn";
 import { LuLogIn } from "react-icons/lu";
+import LiamDropdown from "../Component/LiamDropdown";
 
 const Sidebar = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -122,7 +123,7 @@ const Sidebar = () => {
             <img className="w-8 h-8" src={user} alt="" />
             <p className="text-xs lg:text-sm font-medium">Liam Trampota</p>
           </div>
-          <IoIosArrowForward />
+          <LiamDropdown />
         </div>
         <div className="flex items-center gap-1">
           <IoNotificationsOutline className="w-8 h-8 rounded-full bg-secondary text-white p-2" />

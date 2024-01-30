@@ -1,28 +1,18 @@
 import React from "react";
-
-import { IoSettingsOutline } from "react-icons/io5";
-import { IoIosArrowForward } from "react-icons/io";
 import { IoSearchOutline } from "react-icons/io5";
 import scrinshort from "../../assets/screenShort.png";
 import user from "../../assets/user.svg";
 import { FiPaperclip } from "react-icons/fi";
 import { GrChat } from "react-icons/gr";
 import Sidebar from "../../Shared/Sidebar";
+import Navbar from "../../Shared/Navbar";
 
 const Todo = () => {
   return (
     <div className="flex ">
       <Sidebar />
       <div className="w-full p-5 bg-default_soft_pro">
-        <div className="flex items-center justify-between">
-          <p className="text-xs text-black font-medium">Environment</p>
-          <IoSettingsOutline className="w-10 h-10 p-2 text-secondary rounded-md bg-secondary_soft_btn" />
-        </div>
-        {/* Metanote */}
-        <div className="flex items-center gap-4">
-          <h2 className="text-4xl text-secondary font-medium">Metanote</h2>
-          <IoIosArrowForward className="text-2xl text-secondary rotate-90" />
-        </div>
+       <Navbar/>
         {/* Search */}
         <div className="flex justify-between mt-6">
           <button className="flex items-center gap-2 w-56 rounded-sm px-4 py-1.5 text-secondary bg-default">

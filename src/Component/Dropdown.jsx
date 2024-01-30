@@ -5,7 +5,7 @@ const Dropdown = () => {
     const [dropdownOpen, setdropwonOpen] = useState(false);
   return (
     <div>
-      <div className="">
+      <div className="fixed">
         <button
           onClick={() => setdropwonOpen(!dropdownOpen)}
           className="flex items-center gap-1 py-1 px-4 rounded-lg font-medium text-lg lg:text-xl  text-secondary hover:bg-default_soft focus:bg-default_soft    "

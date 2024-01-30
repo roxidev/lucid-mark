@@ -10,6 +10,7 @@ import Tasks from './Pages/Task/Tasks';
 import NoPage from './Pages/NoPage/NoPage';
 import Teams from './Pages/Teams/Teams';
 import Login from './Pages/Login/Login';
+import GridView from './Pages/View/GridView';
 
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -21,8 +22,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="environment" element={<Environment />} />
         <Route path="tasks" element={<Tasks />} />
         <Route path="teams" element={<Teams />} />
-        <Route path="login" element={<Login />} />
-        
+        <Route path="login" element={<Login />} />       
+        <Route path="gridview" element={<GridView />} />       
         <Route path="*" element={<NoPage />} />
       </Route>
     </Routes>

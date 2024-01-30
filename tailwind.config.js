@@ -21,6 +21,7 @@ export default {
         black: "#414141",
         dark_black: "#101213",
         primary_soft: "rgba(33, 143, 244, 0.12)",
+        primary_btn: "#CBF0E3",
         secondary_soft: "rgba(255, 255, 255, 0.28)",
         secondary_soft_pro: "rgba(255, 255, 255, 0.20)",
         secondary_soft_btn: "rgba(0, 109, 249, 0.08)",
